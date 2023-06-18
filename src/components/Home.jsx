@@ -14,7 +14,7 @@ const Home = () => {
             </p>
             <Link
               to="/dashboard"
-              className="mt-20 bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded font-bold">
+              className="mt-20 bg-blue-500 hover:bg-blue-600 text-white py-3 px-7 rounded font-bold">
               Get Started for Free
             </Link>
           </div>
