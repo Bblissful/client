@@ -72,6 +72,7 @@ const Dashboard = () => {
                     <input
                       type="text"
                       id="pointA"
+                      placeholder="Latitude, Longitude"
                       value={pointA}
                       onChange={(e) => setPointA(e.target.value)}
                       className="border border-gray-300 rounded px-2 py-1"
@@ -85,6 +86,7 @@ const Dashboard = () => {
                       type="text"
                       id="pointB"
                       value={pointB}
+                      placeholder="Latitude, Longitude"
                       onChange={(e) => setPointB(e.target.value)}
                       className="border border-gray-300 rounded px-2 py-1"
                     />
@@ -97,7 +99,7 @@ const Dashboard = () => {
                 </>
               ) : (
                 <>
-                  <p className="mt-4">Air distance: {distance} km</p>
+                  <p className="mt-4">Distance: {distance} km</p>
                   <button
                     onClick={resetForm}
                     className="bg-blue-500 text-white py-2 px-4 rounded mt-4">
@@ -107,11 +109,9 @@ const Dashboard = () => {
               )}
             </div>
           </div>
-          <section className="mt-20 text-lg">
+          <section className="mt-20 text-center">
             <p>Don't know your cordinates?</p>
             <Link to="/map"> Click here</Link>
-
-          
           </section>
         </div>
       </>

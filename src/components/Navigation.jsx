@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
  const Navigation = () => {
   return (
-    <div className="h-0 w-full flex justify-between items-center">
+    <div className="flex h-[0] justify-between ">
+      {/* h-0 w-full   */}
+
       <figure className="w-[20%] md:w-[13%]">
         <img src="/images/logo.png" alt="logo" className="md:p-4 p-2 w-full" />
       </figure>

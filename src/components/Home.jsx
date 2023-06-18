@@ -68,25 +68,27 @@ const Home = () => {
               How space metric works
             </h2>
             <div className="flex flex-col md:flex-row justify-center items-center">
-              <div className="md:w-1/2 p-4 m-7">
+              <div className="md:w-1/2 p-4 m-7 md:border border-[#cec9c9] rounded-xl bg-[#d3d9e4]">
                 <h3 className="text-xl font-semibold mb-4">
                   Step 1: Enter the Coordinates
                 </h3>
                 <p className="text-gray-700">
                   Provide the latitude and longitude coordinates of the starting
                   point (Point A) and the destination point (Point B). Simply
-                  fill in the input fields with the latitude and longitude and they should
-                  be in decimal points and should be seperated by a comma. Click on "Go"
+                  fill in the input fields with the latitude and longitude and
+                  they should be in decimal points and should be seperated by a
+                  comma. Click on "Go"
                 </p>
               </div>
-              <div className="md:w-1/2 p-4 m-7">
+              <div className="md:w-1/2 p-4 m-7 md:border border-[#cec9c9] rounded-xl bg-[#d3d9e4]">
                 <h3 className="text-xl font-semibold mb-4">
                   Step 2: Get the Air Distance
                 </h3>
                 <p className="text-gray-700">
-                  Once you click the "Go" button, the air distance between the two points will be authomatically calculated using
-                  algorithms based on the Haversine formula. The result will be
-                  displayed instantly too.
+                  Once you click the "Go" button, the air distance between the
+                  two points will be authomatically calculated using algorithms
+                  based on the Haversine formula. The result will be displayed
+                  instantly too.
                 </p>
               </div>
             </div>
@@ -118,7 +120,9 @@ const Home = () => {
               &copy; {new Date().getFullYear()} Air Distance Calculator. All
               rights reserved.
             </p>
-            <p className="w-1/2">Contact us @Gmail with blessingedeh121@gmail.com</p>
+            <p className="w-1/2">
+              Contact us @Gmail with blessingedeh121@gmail.com
+            </p>
           </div>
         </footer>
       </main>
